@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+.sectionlayout {
+  max-width: 1640px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+@media (max-width: 1023px) {
+  .sectionlayout {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .sectionlayout {
+    padding: 0 1rem;
+  }
+}
+
+.trail-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 50;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .trail-image {
+    width: 120px;
+  }
+}
