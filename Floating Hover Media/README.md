@@ -1,16 +1,56 @@
-# React + Vite
+# 🎯 Smooth Cursor Follow Hover Preview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive hover card animation where the image smoothly follows the user's cursor using `requestAnimationFrame` and interpolation (lerp).
 
-Currently, two official plugins are available:
+Built with modern React patterns and optimized animation loops for fluid performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Smooth cursor-follow image animation
+- Lerp-based motion interpolation
+- requestAnimationFrame performance optimization
+- Scroll reveal animations with Framer Motion
+- Fully responsive layout
+- Built using TailwindCSS utility styling
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- React
+- Framer Motion
+- TailwindCSS
+- Lucide React Icons
+
+---
+
+## 📸 Preview
+
+![Project Preview](./preview.gif)
+
+---
+
+## 💡 How It Works
+
+The floating image position is updated using:
+
+- Mouse position tracking
+- Linear interpolation (`dx * 0.1`)
+- `requestAnimationFrame` loop for smooth rendering
+
+This creates a fluid and natural hover interaction.
+
+---
+
+## 👨‍💻 Author
+
+**Nouman Ali**
+
+Connect with me on LinkedIn:  
+🔗 https://www.linkedin.com/in/YOUR_LINKEDIN_URL
+
+---
+
+⭐ If you like this project, feel free to star the repo!
