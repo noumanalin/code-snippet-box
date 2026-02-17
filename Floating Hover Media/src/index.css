@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #555 #fff;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #18181b;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container-lg {
+  max-width: 1520px;
+  margin-inline: auto;
+  padding-inline: 10px;
+  overflow: hidden;
+}
+
+.text-light {
+  color: #fff;
+}
+
+.text-gray {
+  color: #999999;
+}
+
+.center-center {
+  @apply flex justify-center items-center;
+}
+
+.bg-accent {
+  @apply bg-zinc-900;
+}
