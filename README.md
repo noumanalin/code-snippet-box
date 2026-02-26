@@ -6,11 +6,11 @@ This monorepo contains reusable animation driven UI snippets focused on premium 
 
 ## 🚀 Live Snippets
 
-| Project | Preview | Tech Stack  |
-|----------|----------|------------|
-| **cursor-image-trail** | ![](./cursor-image-trail/git-assets/preview.gif) | React + GSAP + Tailwind  |
-| **floating-hover-media** | ![](./floating-hover-media/preview.gif) | React + Framer Motion + Tailwind |
-| **Split Reveal Hero Section** | ![](./split-reveal-hero/preview.gif) | React + GSAP |
+| Project | Preview | Tech Stack |
+| :--- | :--- | :--- |
+| [**Cursor Image Trail**](./cursor-image-trail/) | ![](./cursor-image-trail/git-assets/preview.gif) | React + GSAP + Tailwind |
+| [**Floating Hover Media**](./floating-hover-media/) | ![](./floating-hover-media/preview.gif) | React + Framer Motion + Tailwind |
+| [**Split Reveal Hero Section**](./split-reveal-hero/) | ![](./split-reveal-hero/preview.gif) | React + GSAP + Tailwind |
 
 
 ---
