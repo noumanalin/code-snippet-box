@@ -1,0 +1,49 @@
+.whatsapp-container {
+    position: fixed;
+    left: 20px;
+    bottom: 24px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: pulse-animation 3s infinite;
+    z-index: 1100;
+  }
+  
+  .whatsapp-icon {
+    font-size: 32px;
+    color: white;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0 rgba(77, 194, 71, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 25px 25px rgba(77, 194, 71, 0.1);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(77, 194, 71, 0.7);
+    }
+  }
+  
